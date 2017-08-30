@@ -299,7 +299,7 @@ article {
 		border-color:#dddddd;}
 	.mainpic{
 		float:none;
-		width:100px;
+		width:200px;
 		height:auto;}
 	aside{
 		position:absolute;
@@ -307,17 +307,11 @@ article {
    		width: 220px;
     	margin-left: 570px;}
     .wholemenu{
-    position:absolute;
-	margin-left:520px;
-	margin-top:20px;
-	display:flex;
-	background-color:#ffffff;
-	list-style-type:none;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	color:#777777;
-    }
+    	position:absolute;
+		margin-left:520px;}
 	}
-	
+
+
 
 
 
