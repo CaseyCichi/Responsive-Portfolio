@@ -289,6 +289,37 @@ article {
 }
 
 
+@media screen and (max-width: 980px) {
+	article{
+		width:400px;
+    	height:750px;
+    	padding:5px;
+    	border-size:1px;
+		border-style:solid;
+		border-color:#dddddd;}
+	.mainpic{
+		float:none;
+		width:100px;
+		height:auto;}
+	aside{
+		position:absolute;
+    	float: right;
+   		width: 220px;
+    	margin-left: 570px;}
+    .wholemenu{
+    position:absolute;
+	margin-left:520px;
+	margin-top:20px;
+	display:flex;
+	background-color:#ffffff;
+	list-style-type:none;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#777777;
+    }
+	}
+	
+
+
 
 html {
 	background-image:url("../images/background.png");
