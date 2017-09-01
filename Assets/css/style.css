@@ -459,6 +459,7 @@ html {
     	margin-left: 37px;
    		margin-top:720px;
    		overflow: auto;}
+   	.text{margin-top: 100px}
 	
 html {
 	background-image:url("../images/background.png");
