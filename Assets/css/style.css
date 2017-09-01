@@ -49,7 +49,6 @@ aside {
     padding: 1em;
     background-color:#ffffff;
     font-family:'Arial', Helvetica, sans-serif;;
-    overflow:hidden;
  	border-size:1px;
 	border-style:solid;
 	border-color:#dddddd;
@@ -68,7 +67,6 @@ article {
     margin-left: 110px;
     margin-top:30px;
     color:black;
-    overflow:hidden;
     float: left;
     background-color:#ffffff;
     width:550px;
@@ -361,6 +359,7 @@ html {
 	#absolute5{
 		position:absolute;
 		margin-top:846px;
+		margin-left:65px;
 	}
 
 }
@@ -396,7 +395,7 @@ html {
 		margin-left: 20px;}
 
 	aside {
-    	width: 685px;
+    	width: 683px;
     	height:140px;
     	margin-left: 20px;
    		 margin-top:400px;
@@ -406,17 +405,36 @@ html {
    		 width: 100%;
    		 border: none;}
 
-    html {
+    .first,{
+		float:none;
+		padding:5px;
+		width:20px;
+		height:20px;
+		margin-left:70px;
+	}
+	.second{
+		margin-top:10px;}
+	.third{
+		margin-top:5px}
+	}
+	.fourth{
+		margin-top:5px;
+	}
+	.firth{
+		margin-top:20px;
+	}
+
+	html {
 	background-image:url("../images/background.png");
 	background-repeat:repeat;}
 
 	}
 
-	@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
 	article {
     	margin-left:40px;
     	width:680px;
-    	height:600px;
+    	height:500px;
     	padding:3px;
 		margin-top:80px;
 		overflow: auto}
@@ -455,11 +473,13 @@ html {
 
    	aside {
     	width: 658px;
-    	height:140px;
+    	height:200px;
     	margin-left: 37px;
-   		margin-top:720px;
-   		overflow: auto;}
+   		margin-top:620px;}
+
    	.text{margin-top: 100px}
+}
+	
 	
 html {
 	background-image:url("../images/background.png");
