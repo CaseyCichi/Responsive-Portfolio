@@ -318,9 +318,10 @@ html {
 		margin-left:60px;
 	}
 	.second{
-		margin-top:5px;}
+		margin-top:5px;
+	}
 	.third{
-		margin-top:5px}
+		margin-top:5px;
 	}
 	.fourth{
 		margin-top:5px;
@@ -375,7 +376,7 @@ html {
     	width:707px;
     	height:360px;
     	padding:3px;
-    	border-size:1px;
+    	border-width:2px;
 		border-style:solid;
 		border-color:#dddddd;
 		float:left;
@@ -413,9 +414,10 @@ html {
 		margin-left:70px;
 	}
 	.second{
-		margin-top:10px;}
+		margin-top:10px;
+	}
 	.third{
-		margin-top:5px}
+		margin-top:5px;
 	}
 	.fourth{
 		margin-top:5px;
@@ -477,7 +479,7 @@ html {
     	margin-left: 37px;
    		margin-top:620px;}
 
-   	.text{margin-top: 100px}
+   	.text{margin-top: 100px;}
 }
 	
 	
